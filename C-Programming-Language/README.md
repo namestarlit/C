@@ -1,4 +1,4 @@
-# The C Programming Language (K&R)
+## The C Programming Language (K&R)
 
 All the exercises in this folder are from The **C Programming Language** by Brian W. Kernighan and Dennis M. Ritchie (the founder of C programming language).
 
