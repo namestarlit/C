@@ -5,5 +5,5 @@ So, the directory name is the name of the book I used.
 That is all for  now, I will update more incase there is anything to tell : )
 
 ---
-*starlit*  
-*2022-12-09*
+**starlit**  
+**2022-12-09**
