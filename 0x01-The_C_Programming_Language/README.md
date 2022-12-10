@@ -5,9 +5,9 @@ All the exercises in this folder are from The **C Programming Language** by Bria
 These are just exercise source codes not otherwise. I like keeping track of my progress, and this is the best way to do it, to me.
 
 
-**0x00-starlit** folder, contains all the self exercises I did applying the concepts I learnt from the tutorials.
+**0x00-starlit** folder, contains all the self-exercises I did applying the concepts I learnt from the tutorials.
 
 ---
 
 **starlit**  
-**2022-10-09**
+**2022-10-10**
