@@ -22,6 +22,9 @@ int main(void)
 	upper = 300;
 	step = 20;
 
+
+	printf("Fahrenheit-Celsius Table\n");
+
 	fahr = lower;
 
 	while (fahr <= upper)
