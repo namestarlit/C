@@ -20,7 +20,7 @@ int main(void)
 
 	for (nc = 0; getchar() != EOF; ++nc)
 		;
-	printf("\n%.f\n", nc);
+	printf("\n%.f character(s)\n", nc);
 
 	return (0);
 }
