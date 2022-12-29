@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 	char space[] = " ";
 	char fname[] = "Paul";
 	char sname[] = "John";
+	char empty[] = "";
 
 	printf("Number: %d (%i).\n", nu, nu);
 	printf("ASCII 20: %c.\n", nu);
@@ -26,6 +27,7 @@ int main(int argc, char *argv[])
 	printf("Shorter: %g.\n", d);
 	printf("My name is %s%s%s.\n", fname, space, sname);
 	printf("Address of space: %p.\n", &space);
+	printf("Empty: %s.\n", empty);
 	printf("Adios!\n");
 
 	return (0);
