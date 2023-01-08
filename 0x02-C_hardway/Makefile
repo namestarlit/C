@@ -1,1 +1,1 @@
-CFLAGS=-Wall -g \
+CFLAGS=-Wall -Werror -Wextra -g \
