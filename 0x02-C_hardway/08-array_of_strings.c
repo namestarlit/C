@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		"California", "Oregon",
 		"Washington", "Texas"
 	};
-	int num_states = 4;
+	int num_states = 5;
 
 	putchar('\n');
 
