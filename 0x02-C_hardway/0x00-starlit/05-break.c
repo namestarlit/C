@@ -9,9 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-	char name[4] = {'a', 'b', 'c', 'd', 'e'};
+	char name[4] = {'a', 'b', 'c', 'd'};
 
-	/* when I print elements of name, 'e' is left out*/
 	printf("name: %s\n", name);
 	printf("name each: %c %c %c %c %c\n", name[0], name[1], name[2], name[3], name[4]);
 
@@ -20,8 +19,7 @@ int main(int argc, char *argv[])
 	next[0] = 'A';
 	next[1] = 'B';
 	next[2] = 'C';
-	next[3] = 'D';
-	next[4] = 'E';
+	next[3] = '\0';
 
 	printf("next: %s\n", next);
 
