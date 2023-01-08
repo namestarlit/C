@@ -12,7 +12,11 @@
 int main(int argc, char *argv[])
 {
 	while (true)
+	{
 		puts("I will print this line forever");
+		puts("Oops! they broke me!");
+		break;
+	}
 
 	return (0);
 }
