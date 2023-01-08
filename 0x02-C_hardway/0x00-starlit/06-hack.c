@@ -9,7 +9,12 @@
  */
 int main(int argc, char *argv[])
 {
-	union hack {
+	/**
+	 * A union - special type of variable that can store
+	 * different types of data in the same memory location
+	 */
+	union hack
+	{
 		char name[4];
 		int num;
 	};
@@ -20,7 +25,7 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", h.num);
 
-	h.name[0] = 'a';
+	h.name[0] = 'a'; /* sets the 1st element of array name */
 	h.name[1] = 'b';
 	h.name[2] = 'c';
 	h.name[3] = 'd';
