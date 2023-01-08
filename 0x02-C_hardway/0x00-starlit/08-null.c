@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	char *cities[] = {
 		"Mwanza", "Dar es Salaam",
-		"Arusha", NULL
+		"Arusha", "Mbeya"
 	};
 	int i, size = 4;
 
