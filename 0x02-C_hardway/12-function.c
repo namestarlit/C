@@ -4,6 +4,11 @@
 int can_print_it(char ch);
 void print_letters(char arg[]);
 
+/**
+ * void print_arguments - prints arguments
+ * @argc: argument count
+ * @argv: argument vector
+ */
 void print_arguments (int argc, char *argv[])
 {
 	int i;
@@ -12,6 +17,10 @@ void print_arguments (int argc, char *argv[])
 		print_letters(argv[i]);
 }
 
+/**
+ * print_letters - prints letters
+ * @arg: input string
+ */
 void print_letters(char arg[])
 {
 	int i;
@@ -26,11 +35,25 @@ void print_letters(char arg[])
 	printf("\n");
 }
 
+/**
+ * can_print_it - checks if a character
+ * is alphabetic or blank
+ * @ch: input char
+ *
+ * Return: 1 (true), 0 (false)
+ */
 int can_print_it(char ch)
 {
 	return (isalpha(ch) || isblank(ch));
 }
 
+/**
+ * main - prints argumetns
+ * @argc: argument count
+ * @argv: argument vector
+ *
+ * Return: 0 (success)
+ */
 int main(int argc, char *argv[])
 {
 	print_arguments(argc, argv);
