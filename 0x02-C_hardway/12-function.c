@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include "function.h"
 
 int can_print_it(char ch);
 void print_letters(char arg[]);
@@ -18,7 +19,7 @@ void print_arguments (int argc, char *argv[])
 }
 
 /**
- * print_letters - prints letters
+ * print_letters - print letters
  * @arg: input string
  */
 void print_letters(char arg[])
