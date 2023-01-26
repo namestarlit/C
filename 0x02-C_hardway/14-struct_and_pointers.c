@@ -31,7 +31,7 @@ struct person *person_create(char *name, int age, int height, int weight)
 	struct person *who; /* pointer to a structre person */
 
 	/* allocate memory for struct person */
-	who = malloc(sizeof(struct person));
+	who = (struct person *)malloc(sizeof(struct person));
 
 	assert (who != NULL); /* assert malloc does not return NULL */
 
