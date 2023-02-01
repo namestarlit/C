@@ -1,1 +1,8 @@
-CFLAGS=-Wall -Werror -Wextra -g \
+CFLAGS=-Wall -g 
+
+all: ex19
+
+ex19: object.o
+
+clean:
+	rm -f ex19
