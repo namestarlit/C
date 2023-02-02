@@ -18,6 +18,10 @@ void object_destroy(void *self)
 			free(obj->description);
 		free(obj);
 	}
+	else
+	{
+		return (-1);
+	}
 }
 
 /**
@@ -52,6 +56,8 @@ int object_init(void *self)
  */
 void *object_move(void *self, Direction direction)
 {
+	assert(direction != NULL);
+
 	printf("You can't go that direction.\n");
 	return (NULL);
 }
@@ -94,8 +100,10 @@ void *object_new(size_t size, object proto, char *description)
  	* point a different pointer at it to "cast" it
  	*/
 	object *el = calloc(1, size);
+	assert(el != NULL);
 	*el = proto;
 
+	assert(description != NULL);
 	/* copy the description over */
 	el->description = strdup(description);
 
@@ -108,6 +116,8 @@ void *object_new(size_t size, object proto, char *description)
 	}
 	else
 	{
+		assert(el != NULL);
+
 		/* all done, we made an object of any type */
 		return (el);
 	}

@@ -15,6 +15,8 @@ int Monster_attack(void *self, int damage)
 {
 	Monster *monster = self;
 
+	assert(damage != NULL);
+
 	printf("You attack %s\n", monster->_(description));
 	monster->hit_points -= damage;
 
