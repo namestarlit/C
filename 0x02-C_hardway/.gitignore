@@ -22,12 +22,12 @@
 11-strlen
 11-switch
 12-function
+13-int
 13-pointers
+14-stdint
 14-struct_and_pointers
 15-database
+15-packstruct
 16-sort
 18-debug
 ex19
-int
-packstruct
-stdint
