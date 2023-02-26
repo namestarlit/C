@@ -1,0 +1,20 @@
+#stdint.h format specifiers
+#Note: include inttype.h and stdint.h to use this format specifirer
+#in printf(), scanf() etc functions.
+
+#usage example: printf(" %" PRIu8 "\n", u8); /* format specifier for uint8_t u8 */
+
+Type		Format Specifier
+
+int8_t		PRId8 or PRIi8, PRIo8, PRIu8, PRIx8, PRIX8
+uint8_t		PRIu8, PRIo8, PRIx8, PRIX8
+int16_t		PRId16 or PRIi16, PRIo16, PRIu16, PRIx16, PRIX16
+uint16_t	PRIu16, PRIo16, PRIx16, PRIX16
+int32_t		PRId32 or PRIi32, PRIo32, PRIu32, PRIx32, PRIX32
+uint32_t	PRIu32, PRIo32, PRIx32, PRIX32
+int64_t		PRId64 or PRIi64, PRIo64, PRIu64, PRIx64, PRIX64
+uint64_t	PRIu64, PRIo64, PRIx64, PRIX64
+intmax_t	PRIdMAX or PRIiMAX, PRIoMAX, PRIuMAX, PRIxMAX, PRIXMAX
+uintmax_t	PRIuMAX, PRIoMAX, PRIxMAX, PRIXMAX
+intptr_t	PRIdPTR or PRIiPTR, PRIoPTR, PRIuPTR, PRIxPTR, PRIXPTR
+uintptr_t	PRIuPTR, PRIoPTR, PRIxPTR, PRIXPTR
