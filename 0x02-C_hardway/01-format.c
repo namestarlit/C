@@ -5,7 +5,6 @@
  *
  * Return: 0 (success)
  */
-
 int main(void)
 {
 	int age = 10;
